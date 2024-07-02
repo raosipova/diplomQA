@@ -55,4 +55,11 @@
 * Закрыть эмулятор сочитанием клавиш CTRL + C в терминале запуска.
 * Остановить работу контейнеров сочитанием клавиш CTRL + C в терминале запуска.
 
-Лицензия:нет
+### Лицензия:
+Не требуется
+
+### Список документов:
+
+* [План автоматизации тестирования](https://github.com/raosipova/diplomQA/blob/main/docs/Plan.md)
+* [Отчет по итогам автоматизации](https://github.com/raosipova/diplomQA/blob/main/docs/Summary.md)
+* [Отчет о проведенном тестировании](https://github.com/raosipova/diplomQA/blob/main/docs/Report.md)

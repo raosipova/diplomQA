@@ -40,7 +40,7 @@ public class CreditTest {
     }
 
     @Test
-    @DisplayName("01_Карта одобрена (статус APPROVED)")
+    @DisplayName("01_Покупка тура в кредит со статусом APPROVED")
     public void shouldApproved() {
         buyInCredit.setCardNumber(Utils.getApprovedCard());
         buyInCredit.setCardMonth(Utils.getMonthNumber());
@@ -53,7 +53,7 @@ public class CreditTest {
     }
 
     @Test
-    @DisplayName("02_Карта отклонена (статус DECLINED)")
+    @DisplayName("02_Покупка тура в кредит со статусом DECLINED")
     public void shouldDeclined() {
         buyInCredit.setCardNumber(Utils.getDeclinedCard());
         buyInCredit.setCardMonth(Utils.getMonthNumber());

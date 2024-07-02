@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a261d993-bef3-41b0-939a-b48e5d94b604" name="Changes" comment="" />
+    <list default="true" id="a261d993-bef3-41b0-939a-b48e5d94b604" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/CheckoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CheckoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/CreditTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CreditTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,14 +48,32 @@
   "keyToString": {
     "Gradle.CheckoutTest.executor": "Run",
     "Gradle.CreditTest.executor": "Run",
+    "Gradle.CreditTest.shouldApproved.executor": "Run",
+    "Gradle.CreditTest.shouldDeclined.executor": "Run",
+    "Gradle.CreditTest.shouldErrExpiredCard.executor": "Run",
+    "Gradle.CreditTest.shouldErrIncorrectCvcNotEnoughNumbers.executor": "Run",
+    "Gradle.CreditTest.shouldErrIncorrectCvcNulls.executor": "Run",
+    "Gradle.CreditTest.shouldErrIncorrectMonth.executor": "Run",
+    "Gradle.CreditTest.shouldErrIncorrectNumberCard.executor": "Run",
+    "Gradle.CreditTest.shouldErrIncorrectOwner.executor": "Run",
+    "Gradle.CreditTest.shouldErrIncorrectYear.executor": "Run",
+    "Gradle.CreditTest.shouldErrInvalidDate.executor": "Run",
+    "Gradle.CreditTest.shouldErrInvalidMonth.executor": "Run",
+    "Gradle.CreditTest.shouldErrLongOwner.executor": "Run",
+    "Gradle.CreditTest.shouldErrNoCvc.executor": "Run",
+    "Gradle.CreditTest.shouldErrNoMonth.executor": "Run",
+    "Gradle.CreditTest.shouldErrNoNumberCard.executor": "Run",
+    "Gradle.CreditTest.shouldErrNoOwner.executor": "Run",
+    "Gradle.CreditTest.shouldErrNoYear.executor": "Run",
+    "Gradle.CreditTest.shouldErrShortOwner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.CreditTest">
-    <configuration name="CheckoutTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CreditTest.shouldErrNoCvc">
+    <configuration name="CreditTest.shouldErrIncorrectCvcNotEnoughNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -54,7 +86,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;test.CheckoutTest&quot;" />
+            <option value="&quot;test.CreditTest.shouldErrIncorrectCvcNotEnoughNumbers&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -65,7 +97,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CreditTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CreditTest.shouldErrIncorrectCvcNulls" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -78,7 +110,79 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;test.CreditTest&quot;" />
+            <option value="&quot;test.CreditTest.shouldErrIncorrectCvcNulls&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CreditTest.shouldErrLongOwner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.CreditTest.shouldErrLongOwner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CreditTest.shouldErrNoCvc" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.CreditTest.shouldErrNoCvc&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CreditTest.shouldErrShortOwner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.CreditTest.shouldErrShortOwner&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -91,8 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CreditTest" />
-        <item itemvalue="Gradle.CheckoutTest" />
+        <item itemvalue="Gradle.CreditTest.shouldErrNoCvc" />
+        <item itemvalue="Gradle.CreditTest.shouldErrIncorrectCvcNotEnoughNumbers" />
+        <item itemvalue="Gradle.CreditTest.shouldErrIncorrectCvcNulls" />
+        <item itemvalue="Gradle.CreditTest.shouldErrLongOwner" />
+        <item itemvalue="Gradle.CreditTest.shouldErrShortOwner" />
       </list>
     </recent_temporary>
   </component>

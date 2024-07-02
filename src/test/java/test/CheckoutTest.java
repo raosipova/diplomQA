@@ -40,7 +40,7 @@ public class CheckoutTest {
     }
 
     @Test
-    @DisplayName("01_Карта одобрена (статус APPROVED)")
+    @DisplayName("01_Покупка тура картой со статусом APPROVED")
     public void shouldApproved() {
         buy.setCardNumber(Utils.getApprovedCard());
         buy.setCardMonth(Utils.getMonthNumber());
@@ -53,7 +53,7 @@ public class CheckoutTest {
     }
 
     @Test
-    @DisplayName("02_Карта отклонена (статус DECLINED)")
+    @DisplayName("02_Покупка тура картой со статусом DECLINED")
     public void shouldDeclined() {
         buy.setCardNumber(Utils.getDeclinedCard());
         buy.setCardMonth(Utils.getMonthNumber());
